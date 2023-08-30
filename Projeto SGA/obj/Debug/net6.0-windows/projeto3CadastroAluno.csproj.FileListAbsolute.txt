@@ -1,0 +1,84 @@
+D:\emanuel\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.exe
+D:\emanuel\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.deps.json
+D:\emanuel\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.runtimeconfig.json
+D:\emanuel\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.dll
+D:\emanuel\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+D:\emanuel\projeto3CadastroAluno\bin\Debug\net6.0-windows\ReaLTaiizor.dll
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.AssemblyReference.cache
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.GenerateResource.cache
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.GeneratedMSBuildEditorConfig.editorconfig
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfoInputs.cache
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfo.cs
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CoreCompileInputs.cache
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CopyComplete
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.dll
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\refint\projeto3CadastroAluno.dll
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.genruntimeconfig.cache
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\ref\projeto3CadastroAluno.dll
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormPrincipal.resources
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.Properties.Resources.resources
+D:\emanuel\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormAluno.resources
+F:\Programação orientada a eventos\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.exe
+F:\Programação orientada a eventos\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.deps.json
+F:\Programação orientada a eventos\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.runtimeconfig.json
+F:\Programação orientada a eventos\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.dll
+F:\Programação orientada a eventos\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+F:\Programação orientada a eventos\projeto3CadastroAluno\bin\Debug\net6.0-windows\ReaLTaiizor.dll
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.AssemblyReference.cache
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormAluno.resources
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormPrincipal.resources
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.Properties.Resources.resources
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.GenerateResource.cache
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfoInputs.cache
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfo.cs
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CoreCompileInputs.cache
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CopyComplete
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.dll
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\refint\projeto3CadastroAluno.dll
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.genruntimeconfig.cache
+F:\Programação orientada a eventos\projeto3CadastroAluno\obj\Debug\net6.0-windows\ref\projeto3CadastroAluno.dll
+D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.exe
+D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.deps.json
+D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.runtimeconfig.json
+D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.dll
+D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\ReaLTaiizor.dll
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.AssemblyReference.cache
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormAluno.resources
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormPrincipal.resources
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.Properties.Resources.resources
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.GenerateResource.cache
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfoInputs.cache
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfo.cs
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CoreCompileInputs.cache
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CopyComplete
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.dll
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\refint\projeto3CadastroAluno.dll
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.genruntimeconfig.cache
+D:\Lucas\projeto3CadastroAluno\obj\Debug\net6.0-windows\ref\projeto3CadastroAluno.dll
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.AssemblyReference.cache
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormAluno.resources
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.FormPrincipal.resources
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.Properties.Resources.resources
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.GenerateResource.cache
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.GeneratedMSBuildEditorConfig.editorconfig
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfoInputs.cache
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.AssemblyInfo.cs
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CoreCompileInputs.cache
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.dll
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\refint\projeto3CadastroAluno.dll
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+F:\projeto3CadastroAluno\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.exe
+F:\projeto3CadastroAluno\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.deps.json
+F:\projeto3CadastroAluno\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.runtimeconfig.json
+F:\projeto3CadastroAluno\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.dll
+F:\projeto3CadastroAluno\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.pdb
+F:\projeto3CadastroAluno\projeto3CadastroAluno\bin\Debug\net6.0-windows\ReaLTaiizor.dll
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.csproj.CopyComplete
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\projeto3CadastroAluno.genruntimeconfig.cache
+F:\projeto3CadastroAluno\projeto3CadastroAluno\obj\Debug\net6.0-windows\ref\projeto3CadastroAluno.dll

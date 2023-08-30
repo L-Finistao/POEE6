@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>projeto3CadastroAluno</id>
+    <version>1.0.0</version>
+    <authors>projeto3CadastroAluno</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="ReaLTaiizor" version="3.7.9.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.runtimeconfig.json" target="lib\net6.0-windows7.0\projeto3CadastroAluno.runtimeconfig.json" />
+    <file src="D:\Lucas\projeto3CadastroAluno\bin\Debug\net6.0-windows\projeto3CadastroAluno.dll" target="lib\net6.0-windows7.0\projeto3CadastroAluno.dll" />
+  </files>
+</package>
