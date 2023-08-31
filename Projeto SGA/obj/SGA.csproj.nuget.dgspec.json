@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\aluno\\Source\\Repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aluno\\Source\\Repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aluno\\Source\\Repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj",
+        "projectName": "SGA",
+        "projectPath": "C:\\Users\\aluno\\Source\\Repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj",
+        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno\\Source\\Repos\\L-Finistao\\POEE6\\Projeto SGA\\obj\\",
+=======
     "F:\\projeto3CadastroAluno\\projeto3CadastroAluno\\SGA.csproj": {}
   },
   "projects": {
@@ -12,6 +25,7 @@
         "projectPath": "F:\\projeto3CadastroAluno\\projeto3CadastroAluno\\SGA.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
         "outputPath": "F:\\projeto3CadastroAluno\\projeto3CadastroAluno\\obj\\",
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

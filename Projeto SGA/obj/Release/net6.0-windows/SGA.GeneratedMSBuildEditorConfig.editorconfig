@@ -14,8 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SGA
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\aluno\source\repos\L-Finistao\POEE6\Projeto SGA\
-=======
-build_property.ProjectDir = F:\projeto3CadastroAluno\projeto3CadastroAluno\
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2

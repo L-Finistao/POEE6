@@ -32,6 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAluno));
             this.materialTabControl1 = new ReaLTaiizor.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+<<<<<<< HEAD
+            this.TxtID = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.btnCancelar = new ReaLTaiizor.Controls.MaterialButton();
             this.btnSalvar = new ReaLTaiizor.Controls.MaterialButton();
             this.txtSenha = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
@@ -74,6 +78,10 @@
             // 
             // tabPage1
             // 
+<<<<<<< HEAD
+            this.tabPage1.Controls.Add(this.TxtID);
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.tabPage1.Controls.Add(this.btnCancelar);
             this.tabPage1.Controls.Add(this.btnSalvar);
             this.tabPage1.Controls.Add(this.txtSenha);
@@ -93,6 +101,40 @@
             this.tabPage1.Text = "Cadastro";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // TxtID
+            // 
+            this.TxtID.AnimateReadOnly = false;
+            this.TxtID.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.TxtID.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.TxtID.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.TxtID.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.TxtID.Depth = 0;
+            this.TxtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.TxtID.HideSelection = true;
+            this.TxtID.Hint = "ID";
+            this.TxtID.LeadingIcon = null;
+            this.TxtID.Location = new System.Drawing.Point(615, 6);
+            this.TxtID.MaxLength = 32767;
+            this.TxtID.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            this.TxtID.Name = "TxtID";
+            this.TxtID.PasswordChar = '\0';
+            this.TxtID.PrefixSuffixText = null;
+            this.TxtID.ReadOnly = true;
+            this.TxtID.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.TxtID.SelectedText = "";
+            this.TxtID.SelectionLength = 0;
+            this.TxtID.SelectionStart = 0;
+            this.TxtID.ShortcutsEnabled = true;
+            this.TxtID.Size = new System.Drawing.Size(71, 48);
+            this.TxtID.TabIndex = 10;
+            this.TxtID.TabStop = false;
+            this.TxtID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.TxtID.TrailingIcon = null;
+            this.TxtID.UseSystemPasswordChar = false;
+            // 
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             // btnCancelar
             // 
             this.btnCancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -373,7 +415,11 @@
             this.mmtbDataNascimento.SelectionLength = 0;
             this.mmtbDataNascimento.SelectionStart = 0;
             this.mmtbDataNascimento.ShortcutsEnabled = true;
+<<<<<<< HEAD
+            this.mmtbDataNascimento.Size = new System.Drawing.Size(155, 48);
+=======
             this.mmtbDataNascimento.Size = new System.Drawing.Size(250, 48);
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.mmtbDataNascimento.SkipLiterals = true;
             this.mmtbDataNascimento.TabIndex = 1;
             this.mmtbDataNascimento.TabStop = false;
@@ -434,6 +480,13 @@
             // 
             // dataGridView1
             // 
+<<<<<<< HEAD
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
@@ -444,6 +497,10 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(762, 150);
             this.dataGridView1.TabIndex = 13;
+<<<<<<< HEAD
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             // 
             // Btn_Remove
             // 
@@ -552,7 +609,10 @@
         private TabPage tabPage1;
         private TabPage tabPage2;
         private ReaLTaiizor.Controls.MaterialMaskedTextBox mmtbDataNascimento;
+<<<<<<< HEAD
+=======
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtMatricula;
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtEndereco;
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtNome;
         private ReaLTaiizor.Controls.MaterialComboBox cboEstados;
@@ -568,5 +628,10 @@
         private DataGridView dataGridView1;
         private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
         private BindingSource bindingSource1;
+<<<<<<< HEAD
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit TxtID;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit txtMatricula;
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
     }
 }

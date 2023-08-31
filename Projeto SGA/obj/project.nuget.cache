@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "MpFv4yap6DM8E7MHcMikvOhSNMLo+xCJCZ9Cg6HXnHudg8icLxrn4WJ2iBkVP57Z9LxtROnozuihA5+1etK8Ig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aluno\\Source\\Repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj",
+=======
   "dgSpecHash": "2ZOjf37Yo159bjunYa5s6BJ/HquWUjKEYzgR/UXKfouOmO0Pdag0JyMJTz9e8IA9SAwBAXMd9JIzrYNJky3dgg==",
   "success": true,
   "projectFilePath": "F:\\projeto3CadastroAluno\\projeto3CadastroAluno\\SGA.csproj",
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

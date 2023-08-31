@@ -52,6 +52,45 @@ namespace projeto3CadastroAluno
 
             var con = new MySqlConnection(cs);
             con.Open();
+<<<<<<< HEAD
+            var sql = "";
+            if (!isAlteracao)
+            {
+                sql = "INSERT INTO aluno" +
+                          "(matricula,dt_nascimento,nome,endereco,bairro,cidade,estado,senha)" +
+                          "VALUES" + "(@matricula,@dt_nascimento,@nome,@endereco,@bairro,@cidade,@estado,@senha)";
+                
+            }
+            else
+            {
+                sql = "UPDATE aluno set " +
+                            "matricula = @matricula," +
+                            "dt_nascimento = @dt_nascimento," +
+                            "bairro = @bairro," +
+                            "nome = @nome," +
+                            "cidade = @cidade," +
+                            "estado = @estado," +
+                            "senha = @senha " +
+                            "Where id = @id";
+            }
+            var cmd = new MySqlCommand(sql, con);
+            cmd.Parameters.AddWithValue("@matricula", txtMatricula.Text);
+            DateTime.TryParse(mmtbDataNascimento.Text, out var datanascimento);
+            cmd.Parameters.AddWithValue("@dt_nascimento", datanascimento);
+            cmd.Parameters.AddWithValue("@nome", txtNome.Text);
+            cmd.Parameters.AddWithValue("@endereco", txtEndereco.Text);
+            cmd.Parameters.AddWithValue("@bairro", txtBairro.Text);
+            cmd.Parameters.AddWithValue("@cidade", txtCidade.Text);
+            cmd.Parameters.AddWithValue("@estado", cboEstados.Text);
+            cmd.Parameters.AddWithValue("@senha", txtSenha.Text);
+            if (isAlteracao)
+            {
+                cmd.Parameters.AddWithValue("@id", TxtID.Text);
+
+            }
+            cmd.Prepare();
+            cmd.ExecuteNonQuery();
+=======
             if (!isAlteracao)
             {
                 var sql = "INSERT INTO aluno" +
@@ -74,6 +113,7 @@ namespace projeto3CadastroAluno
             {
                 
             }
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             Limpa_Campos();
         }
 
@@ -195,8 +235,34 @@ namespace projeto3CadastroAluno
 
         private void Edit()
         {
+<<<<<<< HEAD
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+
+                isAlteracao = true;
+                var item = dataGridView1.SelectedRows[0];
+                TxtID.Text = item.Cells["id"].Value.ToString();
+                txtMatricula.Text = item.Cells["matricula"].Value.ToString();
+                mmtbDataNascimento.Text = item.Cells["dt_nascimento"].Value.ToString();
+                txtNome.Text = item.Cells["nome"].Value.ToString();
+                txtEndereco.Text = item.Cells["endereco"].Value.ToString();
+                txtBairro.Text = item.Cells["bairro"].Value.ToString();
+                txtCidade.Text = item.Cells["cidade"].Value.ToString();
+                cboEstados.Text = item.Cells["estado"].Value.ToString();
+                txtSenha.Text = item.Cells["senha"].Value.ToString();
+                materialTabControl1.SelectedIndex = 0;
+                txtMatricula.Focus();
+            }
+            else
+            {
+                MessageBox.Show("Selecione Algum Aluno", "IFSP", MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+
+=======
             
     
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
         }
 
         private void listViewAlunos_MouseClick(object sender, MouseEventArgs e)
@@ -204,17 +270,52 @@ namespace projeto3CadastroAluno
             Edit();
         }
 
+<<<<<<< HEAD
+        private void Deletar(int id)
+        {
+            var con = new MySqlConnection(cs);
+            con.Open();
+            if (!isAlteracao)
+            {
+                var sql = "DELETE FROM aluno WHERE id = @id";
+                         
+                var cmd = new MySqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Prepare();
+                cmd.ExecuteNonQuery();
+            }
+        }
+        private void Btn_Remove_Click(object sender, EventArgs e)
+        {
+            if(dataGridView1.SelectedRows.Count > 0)
+            {
+                if(MessageBox.Show("Deseja Realmente Cancelar","IFSP",MessageBoxButtons.YesNo, MessageBoxIcon.Question ) == DialogResult.Yes) {
+                    int id = (int) dataGridView1.SelectedRows[0].Cells[0].Value;
+                    Deletar(id);
+                    CarregaGrid();
+                }
+            }
+=======
         private void Deletar()
         {
         }
         private void Btn_Remove_Click(object sender, EventArgs e)
         {
           
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
         }
 
         private void listViewAlunos_DrawColumnHeader(object sender, DrawListViewColumnHeaderEventArgs e)
         {
             e.DrawDefault= true;
         }
+<<<<<<< HEAD
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Edit();
+        }
+=======
+>>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
     }
 }
