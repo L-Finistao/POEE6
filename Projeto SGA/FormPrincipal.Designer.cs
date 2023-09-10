@@ -1,4 +1,4 @@
-﻿namespace projeto3CadastroAluno
+﻿namespace SGA
 {
     partial class FormPrincipal
     {

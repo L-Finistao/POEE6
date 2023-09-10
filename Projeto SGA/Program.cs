@@ -1,4 +1,4 @@
-namespace projeto3CadastroAluno
+namespace SGA
 {
     internal static class Program
     {

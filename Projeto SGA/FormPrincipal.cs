@@ -1,21 +1,21 @@
 using SGA.Properties;
 using ReaLTaiizor.Forms;
 
-namespace projeto3CadastroAluno
+namespace SGA
 {
     public partial class FormPrincipal : MaterialForm
     {
         public FormPrincipal()
         {
             InitializeComponent();
-            this.Icon = new Icon("D:\\Lucas\\projeto3CadastroAluno\\ifsp_icon.ico");
+          //  this.Icon = new Icon("D:\\Lucas\\projeto3CadastroAluno\\ifsp_icon.ico");
         }
 
         private void cadastroDeAlunosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormAluno formAluno = new FormAluno();
-            formAluno.MdiParent= this;//o cadastro de aluno est· contido no pricipal
-            formAluno.Show();//permite abrir varios formulario, diferente do dialog ele trava em um formulario atÈ ele ser fechado
+            formAluno.MdiParent= this;//o cadastro de aluno est√° contido no pricipal
+            formAluno.Show();//permite abrir varios formulario, diferente do dialog ele trava em um formulario at√© ele ser fechado
             //drawerTabControl para colocar o roda pe
             //para adiionar uma imagem como icone:
             /*na senha:

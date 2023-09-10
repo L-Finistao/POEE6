@@ -1,4 +1,4 @@
-﻿namespace projeto3CadastroAluno
+﻿namespace SGA
 {
     partial class FormAluno
     {
@@ -32,10 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAluno));
             this.materialTabControl1 = new ReaLTaiizor.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-<<<<<<< HEAD
             this.TxtID = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
-=======
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.btnCancelar = new ReaLTaiizor.Controls.MaterialButton();
             this.btnSalvar = new ReaLTaiizor.Controls.MaterialButton();
             this.txtSenha = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
@@ -78,10 +75,7 @@
             // 
             // tabPage1
             // 
-<<<<<<< HEAD
             this.tabPage1.Controls.Add(this.TxtID);
-=======
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.tabPage1.Controls.Add(this.btnCancelar);
             this.tabPage1.Controls.Add(this.btnSalvar);
             this.tabPage1.Controls.Add(this.txtSenha);
@@ -101,7 +95,6 @@
             this.tabPage1.Text = "Cadastro";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
             // TxtID
             // 
             this.TxtID.AnimateReadOnly = false;
@@ -133,8 +126,6 @@
             this.TxtID.TrailingIcon = null;
             this.TxtID.UseSystemPasswordChar = false;
             // 
-=======
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             // btnCancelar
             // 
             this.btnCancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -415,11 +406,7 @@
             this.mmtbDataNascimento.SelectionLength = 0;
             this.mmtbDataNascimento.SelectionStart = 0;
             this.mmtbDataNascimento.ShortcutsEnabled = true;
-<<<<<<< HEAD
-            this.mmtbDataNascimento.Size = new System.Drawing.Size(155, 48);
-=======
             this.mmtbDataNascimento.Size = new System.Drawing.Size(250, 48);
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.mmtbDataNascimento.SkipLiterals = true;
             this.mmtbDataNascimento.TabIndex = 1;
             this.mmtbDataNascimento.TabStop = false;
@@ -480,13 +467,10 @@
             // 
             // dataGridView1
             // 
-<<<<<<< HEAD
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
-=======
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
@@ -497,10 +481,7 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(762, 150);
             this.dataGridView1.TabIndex = 13;
-<<<<<<< HEAD
             this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
-=======
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
             // 
             // Btn_Remove
             // 
@@ -609,10 +590,6 @@
         private TabPage tabPage1;
         private TabPage tabPage2;
         private ReaLTaiizor.Controls.MaterialMaskedTextBox mmtbDataNascimento;
-<<<<<<< HEAD
-=======
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit txtMatricula;
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtEndereco;
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtNome;
         private ReaLTaiizor.Controls.MaterialComboBox cboEstados;
@@ -628,10 +605,7 @@
         private DataGridView dataGridView1;
         private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
         private BindingSource bindingSource1;
-<<<<<<< HEAD
         private ReaLTaiizor.Controls.MaterialTextBoxEdit TxtID;
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtMatricula;
-=======
->>>>>>> 773fd912ea609c729888cca09b2e500f436bb0f2
     }
 }
