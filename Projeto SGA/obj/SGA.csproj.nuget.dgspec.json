@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukas\\RiderProjects\\POEE6\\Projeto SGA\\SGA.csproj": {}
+    "C:\\Users\\lukas\\source\\repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukas\\RiderProjects\\POEE6\\Projeto SGA\\SGA.csproj": {
+    "C:\\Users\\lukas\\source\\repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukas\\RiderProjects\\POEE6\\Projeto SGA\\SGA.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\source\\repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj",
         "projectName": "SGA",
-        "projectPath": "C:\\Users\\lukas\\RiderProjects\\POEE6\\Projeto SGA\\SGA.csproj",
+        "projectPath": "C:\\Users\\lukas\\source\\repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj",
         "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukas\\RiderProjects\\POEE6\\Projeto SGA\\obj\\",
+        "outputPath": "C:\\Users\\lukas\\source\\repos\\L-Finistao\\POEE6\\Projeto SGA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,24 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.20, 6.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.20, 6.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.20, 6.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.20, 6.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -84,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\lukas\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
