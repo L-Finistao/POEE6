@@ -34,7 +34,7 @@
             tabPage1 = new TabPage();
             TxtFormacao = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             CboxTitulacao = new ReaLTaiizor.Controls.MaterialComboBox();
-            TxtID = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+            TXTPID = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             btnCancelar = new ReaLTaiizor.Controls.MaterialButton();
             btnSalvar = new ReaLTaiizor.Controls.MaterialButton();
             cboEstados = new ReaLTaiizor.Controls.MaterialComboBox();
@@ -78,7 +78,7 @@
             // 
             tabPage1.Controls.Add(TxtFormacao);
             tabPage1.Controls.Add(CboxTitulacao);
-            tabPage1.Controls.Add(TxtID);
+            tabPage1.Controls.Add(TXTPID);
             tabPage1.Controls.Add(btnCancelar);
             tabPage1.Controls.Add(btnSalvar);
             tabPage1.Controls.Add(cboEstados);
@@ -152,36 +152,36 @@
             CboxTitulacao.StartIndex = 0;
             CboxTitulacao.TabIndex = 11;
             // 
-            // TxtID
+            // TXTPID
             // 
-            TxtID.AnimateReadOnly = false;
-            TxtID.AutoCompleteMode = AutoCompleteMode.None;
-            TxtID.AutoCompleteSource = AutoCompleteSource.None;
-            TxtID.BackgroundImageLayout = ImageLayout.None;
-            TxtID.CharacterCasing = CharacterCasing.Normal;
-            TxtID.Depth = 0;
-            TxtID.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            TxtID.HideSelection = true;
-            TxtID.Hint = "ID";
-            TxtID.LeadingIcon = null;
-            TxtID.Location = new Point(615, 6);
-            TxtID.MaxLength = 32767;
-            TxtID.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            TxtID.Name = "TxtID";
-            TxtID.PasswordChar = '\0';
-            TxtID.PrefixSuffixText = null;
-            TxtID.ReadOnly = true;
-            TxtID.RightToLeft = RightToLeft.No;
-            TxtID.SelectedText = "";
-            TxtID.SelectionLength = 0;
-            TxtID.SelectionStart = 0;
-            TxtID.ShortcutsEnabled = true;
-            TxtID.Size = new Size(71, 48);
-            TxtID.TabIndex = 10;
-            TxtID.TabStop = false;
-            TxtID.TextAlign = HorizontalAlignment.Left;
-            TxtID.TrailingIcon = null;
-            TxtID.UseSystemPasswordChar = false;
+            TXTPID.AnimateReadOnly = false;
+            TXTPID.AutoCompleteMode = AutoCompleteMode.None;
+            TXTPID.AutoCompleteSource = AutoCompleteSource.None;
+            TXTPID.BackgroundImageLayout = ImageLayout.None;
+            TXTPID.CharacterCasing = CharacterCasing.Normal;
+            TXTPID.Depth = 0;
+            TXTPID.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            TXTPID.HideSelection = true;
+            TXTPID.Hint = "ID";
+            TXTPID.LeadingIcon = null;
+            TXTPID.Location = new Point(619, 6);
+            TXTPID.MaxLength = 32767;
+            TXTPID.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            TXTPID.Name = "TXTPID";
+            TXTPID.PasswordChar = '\0';
+            TXTPID.PrefixSuffixText = null;
+            TXTPID.ReadOnly = true;
+            TXTPID.RightToLeft = RightToLeft.No;
+            TXTPID.SelectedText = "";
+            TXTPID.SelectionLength = 0;
+            TXTPID.SelectionStart = 0;
+            TXTPID.ShortcutsEnabled = true;
+            TXTPID.Size = new Size(71, 48);
+            TXTPID.TabIndex = 10;
+            TXTPID.TabStop = false;
+            TXTPID.TextAlign = HorizontalAlignment.Left;
+            TXTPID.TrailingIcon = null;
+            TXTPID.UseSystemPasswordChar = false;
             // 
             // btnCancelar
             // 
@@ -405,7 +405,7 @@
             mmtbDataNascimento.SelectionLength = 0;
             mmtbDataNascimento.SelectionStart = 0;
             mmtbDataNascimento.ShortcutsEnabled = true;
-            mmtbDataNascimento.Size = new Size(250, 48);
+            mmtbDataNascimento.Size = new Size(175, 48);
             mmtbDataNascimento.SkipLiterals = true;
             mmtbDataNascimento.TabIndex = 1;
             mmtbDataNascimento.TabStop = false;
@@ -570,7 +570,7 @@
             DrawerTabControl = materialTabControl1;
             Name = "FormProfessor";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Cadastro de Aluno";
+            Text = "Cadastro de Professores";
             Load += FormAluno_Load;
             materialTabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
@@ -602,7 +602,7 @@
         private DataGridView dataGridView1;
         private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
         private BindingSource bindingSource1;
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit TxtID;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit TXTPID;
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtMatricula;
         private ReaLTaiizor.Controls.MaterialTextBoxEdit TxtFormacao;
         private ReaLTaiizor.Controls.MaterialComboBox CboxTitulacao;

@@ -366,7 +366,7 @@
             DrawerTabControl = materialTabControl1;
             Name = "FormCurso";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Cadastro de Aluno";
+            Text = "Cadastro de Curso";
             Load += FormAluno_Load;
             materialTabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

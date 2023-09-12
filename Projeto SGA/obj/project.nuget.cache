@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nkYc0VzQlUvX/TpuXYFIB7Fo+JpW7uqbWHLKYXC3HoDfdlohGVLPGXv6b3MymJpYzh1yBKdBGo5XzR3XtYj5mw==",
+  "dgSpecHash": "ay4p0oeAN6yAvCsqK+sfUEXJQXr2Ea0m8NQCB9laM9BCEoaZSH3uxQ1ZduAaoXH71uW4fF04A2DBImEMFI5QyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lukas\\source\\repos\\L-Finistao\\POEE6\\Projeto SGA\\SGA.csproj",
+  "projectFilePath": "C:\\Users\\lukas\\OneDrive\\Arquivos\\Documentos\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukas\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\lukas\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

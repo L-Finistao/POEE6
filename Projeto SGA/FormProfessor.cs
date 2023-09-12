@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,6 +51,7 @@ namespace SGA
 
 
 
+
         private void Salvar()
         {
 
@@ -58,7 +60,9 @@ namespace SGA
             var sql = "";
             if (!isAlteracao)
             {
-
+                sql = "INSERT INTO Professor" +
+                   "(matricula,dt_nascimento,nome,endereco,bairro,cidade,estado,titulacao, Area_Formacao)" +
+                   "VALUES" + "(@matricula,@dt_nascimento,@nome,@endereco,@bairro,@cidade,@estado, @titulacao, @area_formacao)";
             }
             else
             {
@@ -70,52 +74,31 @@ namespace SGA
                       "cidade = @cidade," +
                       "estado = @estado," +
                       "titulacao = @titulacao, " +
-                      "Area_Formacao = @area_formacao, " +
+                      "Area_Formacao = @area_formacao " +
                       "Where id = @id";
-            }
 
+            }
             var cmd = new MySqlCommand(sql, con);
             cmd.Parameters.AddWithValue("@matricula", txtMatricula.Text);
-            DateTime.TryParse(mmtbDataNascimento.Text, out var datanascimento);
-            cmd.Parameters.AddWithValue("@dt_nascimento", datanascimento);
+            DateTime.TryParse(mmtbDataNascimento.Text, out var datanasciment);
+            cmd.Parameters.AddWithValue("@dt_nascimento", datanasciment);
             cmd.Parameters.AddWithValue("@nome", txtNome.Text);
             cmd.Parameters.AddWithValue("@endereco", txtEndereco.Text);
             cmd.Parameters.AddWithValue("@bairro", txtBairro.Text);
             cmd.Parameters.AddWithValue("@cidade", txtCidade.Text);
             cmd.Parameters.AddWithValue("@estado", cboEstados.Text);
+
             cmd.Parameters.AddWithValue("@titulacao", CboxTitulacao.Text);
             cmd.Parameters.AddWithValue("@area_formacao", TxtFormacao.Text);
-            if (isAlteracao)
-            {
-                cmd.Parameters.AddWithValue("@id", TxtID.Text);
-
-            }
-
-
             if (!isAlteracao)
             {
-                sql = "INSERT INTO Professor" +
-                    "(matricula,dt_nascimento,nome,endereco,bairro,cidade,estado,titulacao, Area_Formacao)" +
-                    "VALUES" + "(@matricula,@dt_nascimento,@nome,@endereco,@bairro,@cidade,@estado, @titulacao, @area_formacao)";
-
-                cmd = new MySqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@matricula", txtMatricula.Text);
-                DateTime.TryParse(mmtbDataNascimento.Text, out var datanasciment);
-                cmd.Parameters.AddWithValue("@dt_nascimento", datanasciment);
-                cmd.Parameters.AddWithValue("@nome", txtNome.Text);
-                cmd.Parameters.AddWithValue("@endereco", txtEndereco.Text);
-                cmd.Parameters.AddWithValue("@bairro", txtBairro.Text);
-                cmd.Parameters.AddWithValue("@cidade", txtCidade.Text);
-                cmd.Parameters.AddWithValue("@estado", cboEstados.Text);
-
-                cmd.Parameters.AddWithValue("@titulacao", CboxTitulacao.Text);
-                cmd.Parameters.AddWithValue("@area_formacao", TxtFormacao.Text);
-
+                cmd.Prepare();
+                cmd.ExecuteNonQuery();
+                Limpa_Campos();
+                return;
             }
-            else
-            {
+            cmd.Parameters.AddWithValue("@id", TXTPID.Text);
 
-            }
             cmd.Prepare();
             cmd.ExecuteNonQuery();
 
@@ -160,7 +143,7 @@ namespace SGA
                 return false;
             }
 
-          
+
 
             if (!DateTime.TryParse(mmtbDataNascimento.Text, out DateTime _))
             {
@@ -254,7 +237,7 @@ namespace SGA
 
                 isAlteracao = true;
                 var item = dataGridView1.SelectedRows[0];
-                TxtID.Text = item.Cells["id"].Value.ToString();
+                TXTPID.Text = item.Cells["id"].Value.ToString();
                 txtMatricula.Text = item.Cells["matricula"].Value.ToString();
                 mmtbDataNascimento.Text = item.Cells["dt_nascimento"].Value.ToString();
                 txtNome.Text = item.Cells["nome"].Value.ToString();

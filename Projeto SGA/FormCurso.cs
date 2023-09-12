@@ -90,14 +90,10 @@ namespace SGA
                 cmd.Parameters.AddWithValue("@nome", txtNome.Text);
                 cmd.Parameters.AddWithValue("@tipo", cboTipo.Text);
                 cmd.Parameters.AddWithValue("@ano_criacao", TxtDataCriacao.Text);
-                cmd.Prepare();
-                cmd.ExecuteNonQuery();
             }
-            else
-            {
-                cmd.Prepare();
-                cmd.ExecuteNonQuery();
-            }
+
+            cmd.Prepare();
+            cmd.ExecuteNonQuery();
 
             Limpa_Campos();
         }
@@ -203,7 +199,6 @@ namespace SGA
 
                 isAlteracao = true;
                 var item = dataGridView1.SelectedRows[0];
-                IndexSelect = item.Cells["id"].Value.ToString();
                 TxtID.Text = item.Cells["id"].Value.ToString();
                 txtNome.Text = item.Cells["nome"].Value.ToString();
                 TxtDataCriacao.Text = item.Cells["ano_criacao"].Value.ToString();
