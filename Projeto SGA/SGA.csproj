@@ -24,6 +24,7 @@
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.1.0" />
     <PackageReference Include="ReaLTaiizor" Version="3.7.9.4" />
+    <PackageReference Include="Spire.PDF" Version="9.9.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +35,10 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReportCurso.cs" />
+    <Compile Update="FormReportProfessor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Properties\Resources.Designer.cs">

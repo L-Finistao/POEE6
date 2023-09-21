@@ -64,5 +64,26 @@ namespace SGA
                                
             }
         }
+
+        private void alunosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormReport formReport = new FormReport();
+            formReport.MdiParent = this;
+            formReport.Show();
+        }
+
+        private void cursoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormReportCurso formReportCurso = new FormReportCurso();
+            formReportCurso.MdiParent = this;   
+            formReportCurso.Show();
+        }
+
+        private void professoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReportProfessor formReportProfessor= new FormReportProfessor();
+            formReportProfessor.MdiParent= this;
+            formReportProfessor.Show();
+        }
     }
 }

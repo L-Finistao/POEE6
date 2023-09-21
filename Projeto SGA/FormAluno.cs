@@ -17,7 +17,6 @@ namespace SGA
     {
         bool isAlteracao = false;
 
-        int IndexSelect = 0;
 
         string cs = @"server=localhost;" +
                     "uid=root;" +
@@ -92,8 +91,7 @@ namespace SGA
 
             }
 
-            cmd.Prepare();
-            cmd.ExecuteNonQuery();
+
             if (!isAlteracao)
             {
                 sql = "INSERT INTO aluno" +
@@ -109,14 +107,11 @@ namespace SGA
                 cmd.Parameters.AddWithValue("@cidade", txtCidade.Text);
                 cmd.Parameters.AddWithValue("@estado", cboEstados.Text);
                 cmd.Parameters.AddWithValue("@senha", txtSenha.Text);
-                cmd.Prepare();
-                cmd.ExecuteNonQuery();
-            }
-            else
-            {
-
             }
 
+
+            cmd.Prepare();
+            cmd.ExecuteNonQuery();
             Limpa_Campos();
         }
 

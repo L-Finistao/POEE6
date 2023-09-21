@@ -264,6 +264,5 @@ namespace SGA
         {
             Edit();
         }
-
     }
 }
