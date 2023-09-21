@@ -205,6 +205,7 @@ namespace SGA
                 TxtID.Text = item.Cells["id"].Value.ToString();
                 txtNome.Text = item.Cells["nome"].Value.ToString();
                 TxtDataCriacao.Text = item.Cells["ano_criacao"].Value.ToString();
+                cboTipo.Text = item.Cells["tipo"].Value.ToString();
                 materialTabControl1.SelectedIndex = 0;
                 txtNome.Focus();
             }
@@ -266,6 +267,11 @@ namespace SGA
         private void dataGridView1_CellContentDoubleClick(object? sender, DataGridViewCellEventArgs e)
         {
             Edit();
+        }
+
+        private void FormCurso_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

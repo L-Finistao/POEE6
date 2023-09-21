@@ -67,37 +67,36 @@ namespace SGA
 
         }
 
-
-
         private void Monta_Relatorio()
         {
 
             var con = new MySqlConnection(cs);
             con.Open();
             var sql = "SELECT * FROM Professor where 1 = 1 ";
-            if (mmtbDataNascimento.Text != "")
-                sql += " and dt_nascimento = @dt_nascimento";
+      
             if (CboxTitulacao.Text != "")
                 sql += " and titulacao = @titulacao";
+            /*
             if (TxtFormacao.Text != "")
                 sql += " and Area_Formacao = @Area_Formacao";
             if (TxtCidade.Text != "")
                 sql += " and cidade = @cidade";
             if (cboEstados.Text != "")
                 sql += " and estado = @estado";
-
+             */
             var sqlad = new MySqlDataAdapter();
             sqlad.SelectCommand = new MySqlCommand(sql, con);
-            if (mmtbDataNascimento.Text != "")
-                sqlad.SelectCommand.Parameters.AddWithValue("@dt_nascimento", mmtbDataNascimento.Text);
-            if (CboxTitulacao.Text != "")
-                sqlad.SelectCommand.Parameters.AddWithValue("@titulacao", CboxTitulacao.Text);  
-            if (TxtFormacao.Text != "")
-                sqlad.SelectCommand.Parameters.AddWithValue("@Area_Formacao", TxtFormacao.Text);
-            if (TxtCidade.Text != "")
-                sqlad.SelectCommand.Parameters.AddWithValue("@cidade", TxtCidade.Text);
-            if (cboEstados.Text != "")
-                sqlad.SelectCommand.Parameters.AddWithValue("@estado", cboEstados.Text);
+
+                 
+                if (CboxTitulacao.Text != "")
+                    sqlad.SelectCommand.Parameters.AddWithValue("@titulacao", CboxTitulacao.Text);
+               /* if (TxtFormacao.Text != "")
+                    sqlad.SelectCommand.Parameters.AddWithValue("@Area_Formacao", TxtFormacao.Text);
+                if (TxtCidade.Text != "")
+                    sqlad.SelectCommand.Parameters.AddWithValue("@cidade", TxtCidade.Text);
+                if (cboEstados.Text != "")
+                    sqlad.SelectCommand.Parameters.AddWithValue("@estado", cboEstados.Text);
+             */
 
             var dt = new DataTable();
             sqlad.Fill(dt);
@@ -129,15 +128,16 @@ namespace SGA
             }
             table.Draw(page, new PointF(1, y + font.Size + 10));
 
-            doc.SaveToFile("Relatorio_Professores.pdf");
+            doc.SaveToFile("Relatorio_de_Professores.pdf");
 
 
         }
 
+
         private void btnVisualizar_Click(object sender, EventArgs e)
         {
             Monta_Relatorio();
-            Process.Start(new ProcessStartInfo { FileName = @"Relatorio_Professores.pdf", UseShellExecute = true });
+            Process.Start(new ProcessStartInfo { FileName = @"Relatorio_de_Professores.pdf", UseShellExecute = true });
 
         }
 
@@ -186,7 +186,7 @@ namespace SGA
             PdfStringFormat format = new PdfStringFormat(PdfTextAlignment.Center);
 
             page.Canvas.DrawString("Relatorio de Professores", font, brush, page.Canvas.ClientSize.Width / 2, y, format);
-            doc.SaveToFile("Relatorio_Professores.pdf");
+            doc.SaveToFile("Relatorio_de_Professores.pdf");
             PdfTable table = new PdfTable();
             table.Style.CellPadding = 2;
             table.Style.BorderPen = new PdfPen(brush, 0.75f);
@@ -201,7 +201,7 @@ namespace SGA
             }
             table.Draw(page, new PointF(1, y + font.Size + 10));
 
-            doc.LoadFromFile("Relatorio_Professores.pdf");
+            doc.LoadFromFile("Relatorio_de_Professores.pdf");
             doc.PrintSettings.PrinterName = CboImpressora.Text;
             doc.Print();
         }

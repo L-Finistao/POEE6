@@ -482,6 +482,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(762, 352);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // Btn_Remove
             // 

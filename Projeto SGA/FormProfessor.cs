@@ -305,9 +305,9 @@ namespace SGA
 
         }
 
-        private void dataGridView1_CellContentDoubleClick(object? sender, DataGridViewCellEventArgs e)
+        private void FormProfessor_Load(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+
         }
     }
 }
