@@ -38,8 +38,11 @@ namespace SGA
 
         private void FormAluno_Load(object sender, EventArgs e)
         {
-
+            Limpa_Campos();
+            materialTabControl1.SelectedIndex = 0;
+            txtNome.Focus();
         }
+
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {

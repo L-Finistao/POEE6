@@ -279,7 +279,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(762, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(762, 363);
             this.dataGridView1.TabIndex = 13;
             // 
             // Btn_Remove
@@ -301,6 +301,7 @@
             this.Btn_Remove.Type = ReaLTaiizor.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_Remove.UseAccentColor = false;
             this.Btn_Remove.UseVisualStyleBackColor = true;
+            this.Btn_Remove.Click += new System.EventHandler(this.Btn_Remove_Click);
             // 
             // Btn_Edit
             // 
@@ -321,6 +322,7 @@
             this.Btn_Edit.Type = ReaLTaiizor.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_Edit.UseAccentColor = false;
             this.Btn_Edit.UseVisualStyleBackColor = true;
+            this.Btn_Edit.Click += new System.EventHandler(this.Btn_Edit_Click);
             // 
             // Btn_new
             // 
@@ -341,6 +343,7 @@
             this.Btn_new.Type = ReaLTaiizor.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_new.UseAccentColor = false;
             this.Btn_new.UseVisualStyleBackColor = true;
+            this.Btn_new.Click += new System.EventHandler(this.FormAluno_Load);
             // 
             // imageList1
             // 
