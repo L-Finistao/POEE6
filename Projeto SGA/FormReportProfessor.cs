@@ -76,27 +76,27 @@ namespace SGA
       
             if (CboxTitulacao.Text != "")
                 sql += " and titulacao = @titulacao";
-            /*
+            
             if (TxtFormacao.Text != "")
                 sql += " and Area_Formacao = @Area_Formacao";
             if (TxtCidade.Text != "")
                 sql += " and cidade = @cidade";
             if (cboEstados.Text != "")
                 sql += " and estado = @estado";
-             */
+             
             var sqlad = new MySqlDataAdapter();
             sqlad.SelectCommand = new MySqlCommand(sql, con);
 
                  
                 if (CboxTitulacao.Text != "")
                     sqlad.SelectCommand.Parameters.AddWithValue("@titulacao", CboxTitulacao.Text);
-               /* if (TxtFormacao.Text != "")
+               if (TxtFormacao.Text != "")
                     sqlad.SelectCommand.Parameters.AddWithValue("@Area_Formacao", TxtFormacao.Text);
                 if (TxtCidade.Text != "")
                     sqlad.SelectCommand.Parameters.AddWithValue("@cidade", TxtCidade.Text);
                 if (cboEstados.Text != "")
                     sqlad.SelectCommand.Parameters.AddWithValue("@estado", cboEstados.Text);
-             */
+             
 
             var dt = new DataTable();
             sqlad.Fill(dt);

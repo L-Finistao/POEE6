@@ -280,3 +280,7 @@ C:\Users\aluno\Documents\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\refin
 C:\Users\aluno\Documents\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\SGA.pdb
 C:\Users\aluno\Documents\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\SGA.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\ref\SGA.dll
+C:\Users\lukas\OneDrive\Arquivos\Documentos\GitHub\POEE6\Projeto SGA\bin\Debug\net6.0-windows\Spire.Pdf.dll
+C:\Users\lukas\OneDrive\Arquivos\Documentos\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\SGA.FormReport.resources
+C:\Users\lukas\OneDrive\Arquivos\Documentos\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\SGA.FormReportCurso.resources
+C:\Users\lukas\OneDrive\Arquivos\Documentos\GitHub\POEE6\Projeto SGA\obj\Debug\net6.0-windows\SGA.FormReportProfessor.resources

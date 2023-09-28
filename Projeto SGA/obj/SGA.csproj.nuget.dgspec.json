@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj": {}
+    "C:\\Users\\lukas\\OneDrive\\Arquivos\\Documentos\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj": {
+    "C:\\Users\\lukas\\OneDrive\\Arquivos\\Documentos\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\OneDrive\\Arquivos\\Documentos\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj",
         "projectName": "SGA",
-        "projectPath": "C:\\Users\\aluno\\Documents\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\GitHub\\POEE6\\Projeto SGA\\obj\\",
+        "projectPath": "C:\\Users\\lukas\\OneDrive\\Arquivos\\Documentos\\GitHub\\POEE6\\Projeto SGA\\SGA.csproj",
+        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas\\OneDrive\\Arquivos\\Documentos\\GitHub\\POEE6\\Projeto SGA\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +72,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
