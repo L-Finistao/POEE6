@@ -47,7 +47,13 @@ namespace SGA
 
             var con = new MySqlConnection(cs);
             con.Open();
-            var sql = "SELECT * FROM curso where 1 = 1 ";
+
+            var sql = "SELECT curso.*, outra_tabela1.nome AS nome_tabela1, outra_tabela2.descricao AS descricao_tabela2 " +
+              "FROM curso " +
+              "LEFT JOIN outra_tabela1 ON curso.id_tabela1 = outra_tabela1.id " +
+              "LEFT JOIN outra_tabela2 ON curso.id_tabela2 = outra_tabela2.id " +
+              "WHERE 1 = 1 ";
+            //var sql = "SELECT * FROM curso where 1 = 1 ";
             if (TxtDataCriacao.Text != "")
                 sql += " and ano_criacao = @datacriacao";
             if (cboTipo.Text != "")
